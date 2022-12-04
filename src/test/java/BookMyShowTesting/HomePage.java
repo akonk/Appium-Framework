@@ -55,15 +55,7 @@ public class HomePage {
 	    //Thread.sleep(2000);
 		driver.findElement(By.id("com.bt.bms:id/social_bt_google")).click();
 		
-		/*
-		 * List<WebElement> buttons =
-		 * driver.findElements(By.className("android.widget.TextView"));
-		 * 
-		 * for(WebElement button : buttons){ System.out.println(button.getText());
-		 * 
-		 * if(button.getText().equals("atulsoftwares111@gmail.com")){ button.click(); }
-		 * }
-		 */
+		
 		
 		
 		driver.findElement(By.xpath("/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.support.v7.widget.RecyclerView/android.widget.LinearLayout[2]")).click();
@@ -82,46 +74,5 @@ public class HomePage {
 		
 		
 	   
-		/*
-		 * TouchAction action = new TouchAction(driver); action.press(672, 741);
-		 * action.moveTo(672, 741); action.release();
-		 */
-		//action.perform();
 		
-		
-
-	    
-		/*x : 672
-		y : 741
-		
-		x:674
-		y:793
-		
-		X:674
-		Y:844
-		
-		
-		x:674
-		y:895
-		
-		x:626
-		y:892
-		
-		x:623
-		y:846
-		
-		x:626
-		y:793
-		
-		629
-		739
-		
-		575
-		846
-		
-		572
-		889*/
-		
-		 }
-	
 }
